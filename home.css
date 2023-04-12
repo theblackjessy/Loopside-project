@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 62.4%;
+}
+
+body{
+    font-family:"Alata", "Josefin Sans", sans-serif;
+    font-weight:300;
+    line-height: 1.5;
+    font-size:62.5%;
+}
+main{
+    margin: 2rem 5rem;
+}
+
+.row_flex{
+    max-width: 114rem;
+    margin: 0 auto;
+    font-family: 'Alata', sans-serif;
+}
+
+.header{
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.header-header{
+    padding:4rem 3rem 0 3rem;
+}
+
+.nav_flex{
+    display:flex;
+    align-items: center;
+}
+
+.nav_logo{
+    margin-right: auto;
+    width: 13rem;
+    margin-left: 1rem;
+
+}
+
+.list-item{
+    list-style: none;
+}
+.list-items{
+    display:inline-block;
+    padding: 0 1.5rem;
+}
+
+.nav_link{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color:hsl(0, 0%, 100%)
+    ;
+}
+
+.heading_first{
+    color:hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-family: "Alata", sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1rem;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.top-box{
+    width: 35rem;
+    height: 15rem;
+    border: 2px solid hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    margin-top:130px ;
+    margin-left: 30px;
+}
+
+/*-- *************Header section ends*****************--*/
+/*-- *************About section begins*****************--*/
+
+.about{
+    padding:10rem 0;
+}
+
+.about_content{
+    position: relative;
+}
+
+.about_img{
+    max-width: 100%;
+}
+.about_box{
+    max-width: 60rem;
+    background-color: white;
+    padding: 6rem 6rem;
+    position: absolute;
+    top: 45%;
+    left:45%;
+}
+
+.about_text{
+    color:hsl(0, 0%, 55%);
+    font-size: 1.4rem;
+    margin-top:2rem;
+    /* text-align: center; */
+
+}
+.two{
+    color:black;
+}
+
+
+/*-- *************About section ends*****************--*/
+/*-- *************Events section begins*****************--*/
+
+.events{
+    padding: 1rem 0 10rem 0 ;
+}
+.events_flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.section-about_one{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+.section-about_image{
+    flex:0 0 20%;
+    padding-top: 1rem;
+}
+
+.section-project_image1-photo, .section-project_image2-photo, .section-project_image3-photo, .section-project_image4-photo, .section-project_image5-photo, .section-project_image6-photo, .section-project_image7-photo, .section-project_image8-photo{ 
+    width:100%;
+    display:block;
+    padding-top: 4rem;
+}
+
+.section-project_image5, .section-project_image6, .section-project_image7, .section-project_image8{
+    margin-top: 3rem;
+}
+
+.heading-section{
+    font-family: 'Josefin Sans';
+    font-size: 2rem;
+    font-weight: 700 ;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    display:table-caption;
+}
+
+.photograph_content{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 10vw;
+    margin-top: -12rem;
+    color:hsl(198, 62%, 26%);
+}
+.btn{
+    display:inline-block;
+    border:none;
+    outline: none;
+    padding: 1.7rem 4.7rem;
+    cursor:pointer;
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing:  .5rem;
+}
+
+.btn:hover{
+    color:black;
+    background-color: hsl(0, 0%, 55%);
+}
+
+
+/************************footer starts************************/
+.footer{
+    /* width:114rem; */
+    display: flex;
+    margin-top:5rem;
+    align-self: center;
+    justify-content: space-evenly;
+    background-color: black ;
+}
+.footer_div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.footer_list{
+    list-style: none;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    margin-top:10px;
+}
+
+.footer_item{
+    margin-bottom: 5rem;
+}
+
+.footer_item > *:not(last-child){
+    margin-right: 3rem;
+}
+.foot_heading{
+    color:  white;
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    
+}
+.footer_link{
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    color:  white;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    display:flex;
+    margin: 0;
+    padding: 0;
+    margin-top:10px;
+}
+
+.footer-social >*:not(last-child){
+    padding-right: 2rem;
+    color:white;
+}
+footer .last{
+    color:white;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.footer-right{
+    padding-top: 3rem;
+    padding-left: 25rem;
+}
+
+
+/* 
+@media screen and (max-width: 1200px){
+    .about .row { margin-bottom: 80px;}
+.about .about_content{width: 100%}
+about.about_box {
+    position: static;
+    max-width: 100%;
+    text-align: center;
+    padding:0 50px;
+}
+} */
